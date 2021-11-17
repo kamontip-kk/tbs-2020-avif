@@ -33,6 +33,7 @@ module.exports = {
       // ]
     },
     images: {
+      formats: ['image/avif', 'image/webp'],
       domains: ["assets.thaibulksms.com"],
       // loader: 'imgix',
       // path: `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/`,
